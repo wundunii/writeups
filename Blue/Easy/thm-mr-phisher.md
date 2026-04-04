@@ -4,12 +4,16 @@
 - **Theme**: Phishing, .doc, macros
 # Walkthrough
 - We are welcomed with two files that we have to investigate:
+
 ![](.assets/thm-mr-phisher-01.png)
 - Inside `mr.phisher.zip` we find the same `MrPhisher.docm` file that was already extracted in the same folder:
+
 ![](.assets/thm-mr-phisher-02.png)
 - Openning `MrPhisher.docm` gives us a warning about macros from LibreOffice (this takes a minute to open):
+
 ![](.assets/thm-mr-phisher-03.png)
 - Since we got a warning about macros, we can just check for them in `Tools > Macros > Edit Macros` and look for custom macros in `MrPhisher.docm`:
+
 ![](.assets/thm-mr-phisher-04.png)
 - We found a macro named "Format" that was written in Basic:
 ```basic
@@ -49,8 +53,10 @@ int main() {
 }
 ```
 - Compile with `gcc`:
+
 ![](.assets/thm-mr-phisher-05.png)
 - Run the program:
+
 ![](.assets/thm-mr-phisher-06.png)
 # Solution
 `flag{a39a07a239aacd40c948d852a5c9f8d1}`
