@@ -1,2 +1,4 @@
-# writeups
-Writeups for various cybersecurity challenge rooms that I have completed.
+# Blue-teaming
+## TryHackMe
+# Red-teaming
+## TryHackMe
