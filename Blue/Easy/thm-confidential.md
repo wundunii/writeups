@@ -19,6 +19,6 @@
 
 ![](.assets/thm-confidential-04.png)
 - We got the QR-code! Now we just have to scan it with a phone or by uploading it to an online QR-scanner.
-- I don't want to type the answer from my phone or go to a random website so I made [my own QR-scanner](https://github.com/wundunii/qr-scanner)
+- I don't want to type the answer from my phone or go to a random website so I made [my own QR-decoder](https://github.com/wundunii/qr-decoder)
 # Solution
 `flag{e08e6ce2f077a1b420cfd4a5d1a57a8d}`
